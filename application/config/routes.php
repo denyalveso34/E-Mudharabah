@@ -52,3 +52,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
+$route['pemodal/ajukan_pemodalan'] = 'pemodal/ajukan_pemodalan';
+$route['pemodal/status_pemodalan'] = 'pemodal/status_pemodalan';
+$route['pemodal/riwayat_mutasi_pencairan'] = 'pemodal/riwayat_mutasi_pencairan';
+$route['pemodal/mitra_umkm'] = 'pemodal/mitra_umkm';
+$route['pemodal/akun_profile'] = 'pemodal/akun_profile';
+
+$route['konsultan/analisis_pengajuan_umkm'] = 'konsultan/analisis_pengajuan_umkm';
+$route['konsultan/analisis_pengajuan_pemodalan'] = 'konsultan/analisis_pengajuan_pemodalan';
+$route['konsultan/hasil_pengajuan'] = 'konsultan/hasil_pengajuan';
+
+$route['umkm/ajukan_bisnis_umkm'] = 'umkm/ajukan_bisnis_umkm';
+$route['umkm/status_pemodalan'] = 'umkm/status_pemodalan';
+$route['umkm/riwayat_mutasi_penerimaan_dana'] = 'umkm/riwayat_mutasi_penerimaan_dana';
+$route['umkm/kemajuan_usaha_umkm'] = 'umkm/kemajuan_usaha_umkm';
+$route['umkm/akun_profile'] = 'umkm/akun_profile';
+
