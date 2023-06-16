@@ -54,6 +54,8 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 $route['pemodal/ajukan_pemodalan'] = 'pemodal/ajukan_pemodalan';
 $route['pemodal/status_pemodalan'] = 'pemodal/status_pemodalan';
+$route['e-mudharabah/pemodal'] = 'Pemodal/ajukan_pemodalan';
+
 $route['pemodal/riwayat_mutasi_pencairan'] = 'pemodal/riwayat_mutasi_pencairan';
 $route['pemodal/mitra_umkm'] = 'pemodal/mitra_umkm';
 $route['pemodal/akun_profile'] = 'pemodal/akun_profile';
