@@ -49,12 +49,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | Examples:	my-controller/index	-> my_controller/index
 |		my-controller/my-method	-> my_controller/my_method
 */
-$route['default_controller'] = 'welcome';
+$route['default_controller'] = 'dashboard';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 $route['pemodal/ajukan_pemodalan'] = 'pemodal/ajukan_pemodalan';
 $route['pemodal/status_pemodalan'] = 'pemodal/status_pemodalan';
-$route['e-mudharabah/pemodal'] = 'Pemodal/ajukan_pemodalan';
+$route['dashboard/register'] = 'dashboard/register';
+$route['dashboard/login'] = 'dashboard/login';
 
 $route['pemodal/riwayat_mutasi_pencairan'] = 'pemodal/riwayat_mutasi_pencairan';
 $route['pemodal/mitra_umkm'] = 'pemodal/mitra_umkm';
